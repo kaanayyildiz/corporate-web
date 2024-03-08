@@ -8,7 +8,10 @@ import Script from "next/script";
 import AnimatedCursor from "react-animated-cursor";
 import gsap from "gsap";
 
+
 const inter = Inter({ subsets: ["latin"] });
+
+
 
 export const metadata: Metadata = {
   title: "İnox",
@@ -52,7 +55,6 @@ export default function RootLayout({
         <Hero />
 
         <SmoothScroll>{children}</SmoothScroll>
-
       </body>
     </html>
   );
