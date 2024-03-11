@@ -4,7 +4,7 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar mt-4 p-4 max-w-[111rem] mx-auto bg-transparent absolute backdrop-blur-xl rounded-full top-0 left-0 right-0 z-50">
+      <div className="navbar mt-4 p-4 max-w-[25rem] lg:max-w-[111rem] md:max-w-[111rem] mx-auto bg-transparent absolute backdrop-blur-xl rounded-full top-0 left-0 right-0 z-50">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -86,7 +86,7 @@ const Navbar = () => {
                   transform="translate(5 5)"
                 />
               </svg>
-              <span className="ml-1 hidden md:block uppercase font-semibold text-xs text-gray-600 ">Get in Touch</span>
+              <span className="ml-1 hidden md:block uppercase font-semibold text-xs text-gray-950 ">Get in Touch</span>
             </a>
           </div>
         </div>
