@@ -34,8 +34,10 @@ const Hero = () => {
       >
         <div className="text-left text-neutral-content p-7">
           <div className="text-white hero-text">
-            <h1 className="text-4xl md:text-8xl font-bold">Build. Invest.</h1><br />
-            <h1 className="mb-5 text-4xl md:text-8xl font-bold">Innovate.</h1><br />
+            <h1 className="text-4xl md:text-8xl font-bold">Build. Invest.</h1>
+            <br />
+            <h1 className="mb-5 text-4xl md:text-8xl font-bold">Innovate.</h1>
+            <br />
             <button className="bg-white hover:bg-black transition duration-300 hover:text-white w-32 h-10 md:w-48 md:h-14 text-slate-950 text-xs md:text-sm font-semibold uppercase">
               Get Started
             </button>
