@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+.border-animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.border-animation::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.border-animation:hover::after {
+  width: 100%;
+}
+
+.border-animation-white {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .border-animation-white::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .border-animation-white:hover::after {
+    width: 100%;
+  }
+  

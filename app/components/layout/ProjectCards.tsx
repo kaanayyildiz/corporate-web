@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProjectCarousel = () => {
-  return <div>ProjectCarousel</div>;
+  return <div></div>;
 };
 
 export default ProjectCarousel;

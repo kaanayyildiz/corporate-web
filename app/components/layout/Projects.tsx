@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCarousel from "./ProjectCarousel";
+import ProjectCards from "./ProjectCards";
 
 const Projects = () => {
   return (
@@ -10,11 +10,12 @@ const Projects = () => {
             <h1 className="font-thin pb-3 text-2xl md:text-4xl lg:text-5xl">
               Projects
             </h1>
-            <p className="text-3xl md:text-5xl lg:text-6xl font-semibold">
+            <p className="text-3xl pb-3 md:text-5xl lg:text-6xl font-semibold">
               Big-scale projects carry our signature.
             </p>
+            <a href="/" className="text-xl border-animation inline-block">View all projects</a>
           </div>
-          <ProjectCarousel />
+          <ProjectCards />
         </div>
       </div>
     </div>
