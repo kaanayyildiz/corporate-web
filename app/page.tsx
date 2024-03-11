@@ -1,11 +1,11 @@
 import AboutGrids from "./components/layout/AboutGrids";
-import ProjectsCarousel from "./components/layout/ProjectsCarousel";
+import Projects from "./components/layout/Projects";
 
 export default function Home() {
   return <>
   
   <AboutGrids />
-  <ProjectsCarousel />
+  <Projects />
   
   </>;
 }
