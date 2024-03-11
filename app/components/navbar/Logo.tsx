@@ -5,7 +5,7 @@ import InoxLogo from "../../../public/assets/images/inox.png"
 const Logo = () => {
   return (
     <>
-    <Image className="brightness-200 shadow-xl" src={InoxLogo} width={80} height={80} alt="İnox Logo" />
+    <Image className="brightness-200" src={InoxLogo} width={80} height={80} alt="İnox Logo" />
     </>
   );
 };

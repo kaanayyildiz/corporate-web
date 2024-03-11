@@ -48,7 +48,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-x-3">
-          <div className="search">
+          {/* <div className="search">
             <form action="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <g
                   fill="none"
                   fillRule="evenodd"
-                  stroke="#FFFFFF"
+                  stroke="#000000"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
@@ -68,8 +68,8 @@ const Navbar = () => {
                 </g>
               </svg>
             </form>
-          </div>
-          <div className="get-in-touch flex items-center pl-2 bg-white rounded-full p-3">
+          </div> */}
+          <div className="get-in-touch flex items-center bg-white rounded-full p-3">
             <a href="#" className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
