@@ -9,7 +9,7 @@ const AboutGrids = () => {
               <h1 className="font-thin pb-3 text-2xl md:text-4xl lg:text-5xl">
                 Who We Are
               </h1>
-              <p className="text-3xl md:text-5xl lg:text-6xl font-light reveal-type">
+              <p className="text-3xl md:text-5xl lg:text-6xl font-semibold reveal-type">
                 With our expertise in the stainless steel sector, we push the
                 boundaries and create works of art.
               </p>
