@@ -56,7 +56,7 @@ const ProjectCards = () => {
           </div>
         </section>
         <div>
-          <a href="" className="text-2xl border-animation inline-block font-semibold">View all projects</a>
+          <a href="" className="text-2xl border-animation inline-block font-semibold hover:text-[#0c0a86]">View all projects</a>
         </div>
       </div>
     </>
