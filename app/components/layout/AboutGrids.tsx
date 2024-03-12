@@ -30,11 +30,11 @@ const AboutGrids: React.FC = () => {
 
   return (
     <>
-      <div className="scrolltrigger flex  items-center min-h-max mx-auto p-7 md:p-32 border-b">
+      <div className="scrolltrigger flex items-center min-h-max mx-auto p-7 md:p-32 border-b">
   <div className="grid grid-cols-1 gap-20 divide-y align-middle md:grid-cols-1 lg:grid-cols-1">
     <div className="max-w-7xl">
       <div id="target">
-        <h1 className="font-thin pb-3 text-xl md:text-2xl lg:text-3xl">
+        <h1 className="font-thin pb-2 text-xl md:text-2xl lg:text-3xl">
           Who We Are
         </h1>
         <p className="text-3xl md:text-5xl lg:text-6xl font-semibold reveal-type">

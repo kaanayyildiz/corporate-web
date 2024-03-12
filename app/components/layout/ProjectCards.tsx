@@ -14,9 +14,13 @@ const ProjectCards = () => {
                 />
               </figure>
               <div className="absolute h-full w-full flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <button className="bg-black hover:bg-white hover:text-black text-white font-semibold py-2 px-5">
+                <button className="bg-black hover:bg-white hover:text-black text-white font-semibold py-2 px-5 transition-all duration-500">
                   View Project
                 </button>
+              </div>
+              <div className="flex flex-col gap-y-1 mt-5">
+                <div className="text-xs font-thin text-gray-600">Projects</div>
+                <div className="text-xl">Jussieu Est</div>
               </div>
             </div>
           </div>
@@ -31,9 +35,13 @@ const ProjectCards = () => {
                 />
               </figure>
               <div className="absolute h-full w-full flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <button className="bg-black hover:bg-white hover:text-black text-white font-semibold py-2 px-5">
+                <button className="bg-black hover:bg-white hover:text-black text-white font-semibold py-2 px-5 transition-all duration-500">
                   View Project
                 </button>
+              </div>
+              <div className="flex flex-col gap-y-1 mt-5">
+                <div className="text-xs font-thin text-gray-600">Projects</div>
+                <div className="text-xl">The Turk Evi Center</div>
               </div>
             </div>
           </div>
@@ -48,16 +56,17 @@ const ProjectCards = () => {
                 />
               </figure>
               <div className="absolute h-full w-full flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                <button className="bg-black hover:bg-white hover:text-black text-white font-semibold py-2 px-5">
+                <button className="bg-black hover:bg-white hover:text-black text-white font-semibold py-2 px-5 transition-all duration-500">
                   View Project
                 </button>
+              </div>
+              <div className="flex flex-col gap-y-1 mt-5">
+                <div className="text-xs font-thin text-gray-600">Projects</div>
+                <div className="text-xl">Expo 2016</div>
               </div>
             </div>
           </div>
         </section>
-        <div>
-          <a href="" className="text-2xl border-animation inline-block font-semibold">View all projects</a>
-        </div>
       </div>
     </>
   );

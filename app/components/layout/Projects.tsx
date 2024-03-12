@@ -34,16 +34,24 @@ const Projects: React.FC = () => {
         <div className="max-w-7xl">
           <div id="target">
             <div className="flex items-center">
-              <h1 className="font-thin pb-3 text-xl md:text-2xl lg:text-3xl">
+              <h1 className="font-thin pb-2 text-xl md:text-2xl lg:text-3xl">
                 Projects
               </h1>
-              <hr className="w-20 h-[0.10rem] ml-3 bg-gray-700 border-0 rounded"></hr>
+              <hr className="w-20 h-[0.05rem] md:h-[0.08rem] lg:h-[0.10rem] ml-3 bg-gray-700 border-0 rounded"></hr>
             </div>
             <p className="text-3xl pb-3 md:text-5xl lg:text-6xl font-semibold reveal-type">
               Big-scale projects carry our signature.
             </p>
           </div>
           <ProjectCards />
+          <div>
+            <a
+              href="/"
+              className="text-sm md:text-md lg:text-lg border-animation inline-block mt-5 bg-black hover:bg-gray-50 hover:text-black text-white p-3 transition-all duration-500"
+            >
+              View all projects
+            </a>
+          </div>
         </div>
       </div>
     </div>
