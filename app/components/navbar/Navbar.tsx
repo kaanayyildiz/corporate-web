@@ -4,6 +4,8 @@ import Logo from "./Logo";
 const Navbar = () => {
   return (
     <>
+      
+
       <div className="hidden lg:block top-bar max-w-full p-2 bg-black backdrop-blur-xl bg-opacity-25 absolute z-50 top-0 left-0 right-0">
         <div className=" mx-auto flex justify-end gap-x-6">
           <div className="flex gap-x-2 items-center align-middle">
@@ -58,16 +60,16 @@ const Navbar = () => {
             <li className="border-animation-white inline-block">
               <a href="/">Home</a>
             </li>
-           <li className="border-animation-white inline-block">
+            <li className="border-animation-white inline-block">
               <a href="/">About Us</a>
             </li>
-           <li className="border-animation-white inline-block">
+            <li className="border-animation-white inline-block">
               <a href="/">Services</a>
             </li>
-           <li className="border-animation-white inline-block">
+            <li className="border-animation-white inline-block">
               <a href="/">Projects</a>
             </li>
-           <li className="border-animation-white inline-block">
+            <li className="border-animation-white inline-block">
               <a href="/">News</a>
             </li>
           </ul>
