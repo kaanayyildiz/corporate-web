@@ -1,19 +1,44 @@
+"use client"
 import React from "react";
 import ProjectCards from "./ProjectCards";
 
-const Projects = () => {
+import { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import SplitType from "split-type";
+
+gsap.registerPlugin(ScrollTrigger);
+const Projects: React.FC = () => {
+  useEffect(() => {
+    const splitTypes = document.querySelectorAll<HTMLElement>(".reveal-type");
+
+    splitTypes.forEach((char, i) => {
+      const text = new SplitType(char, { types: "chars,words" });
+      gsap.from(text.chars, {
+        scrollTrigger: {
+          trigger: char,
+          start: 'top 80%',
+          end: 'top 20%',
+          scrub: true,
+          markers: false
+        },
+        opacity: 0.2,
+        stagger: 0.1
+      })
+    });
+  }, []);
+
   return (
-    <div className="min-h-max mx-auto p-7 md:p-32 border-b">
+    <div className="min-h-screen mx-auto p-7 md:p-32 border-b bg-gray-50">
       <div className="grid grid-cols-1 gap-20 divide-y align-middle md:grid-cols-1 lg:grid-cols-1">
         <div className="max-w-7xl">
           <div id="target">
             <h1 className="font-thin pb-3 text-2xl md:text-4xl lg:text-5xl">
               Projects
             </h1>
-            <p className="text-3xl pb-3 md:text-5xl lg:text-6xl font-semibold">
+            <p className="text-3xl pb-3 md:text-5xl lg:text-6xl font-semibold reveal-type">
               Big-scale projects carry our signature.
             </p>
-            <a href="/" className="text-xl border-animation inline-block">View all projects</a>
           </div>
           <ProjectCards />
         </div>

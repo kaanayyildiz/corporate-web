@@ -29,7 +29,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <nav className="navbar mt-12 p-4 max-w-[25rem] lg:max-w-[111rem] md:max-w-[111rem] mx-auto bg-transparent absolute rounded-full top-0 left-0 right-0 z-50 ">
+      <nav className="navbar md:mt-12 lg:mt-12 p-4 max-w-[25rem] lg:max-w-[111rem] md:max-w-[111rem] mx-auto bg-transparent absolute rounded-full top-0 left-0 right-0 z-50 ">
         <div className="navbar-start justify-between md:justify-normal">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
